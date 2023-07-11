@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 100%
+    display: flex;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.nav-list{
+display: flex;
+list-style: none;;
+background-size: cover;
+
+padding: 10px;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+font-size: 1.3rem;
+}
+.nav-list li{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    width: 100%;
+}
+.nav-list a{
+    text-decoration: none;
+    color: gray;
+    background-size: cover;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+}
+.first_p{
+    width: 100vw;
+   height: 100vh;
+   background: url(temp.jpeg) ;
+}
+.heading1{
+    padding-top: 10%;
+    color: #fff;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width:50%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.heading2{
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width:70%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.soc_handles{
+    background-size: cover;
+    justify-content: center;
+
+}
+ .se{
+max-height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 1120px;
+margin: auto;
+ }
+ .pic1{
+width: 30rem;
+height: 15rem;
+border-radius: 5%;
+ }
+ .se p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+.secondpage h1 {
+    margin-top: 10rem;
+    color: rgb(27, 27, 27);
+    font-size: 52px;
+    font-weight: bold;
+    margin-left:7rem;
+
+ }
+ .message {
+    color: blue;
+    transition: color 0.1s;
+  }
+  .tr{
+    font-size:2rem;
+    margin-left: 7rem;
+  }
+  .soc {
+    display: flex;
+  }
+  .soc img {
+    width: 7%;
+  }
+  #fb{
+    margin-left:170% ;
+    width: 10%;
+  }
+  #yt{
+    margin-left:-97%;
+    width: 10%;
+  }
+  #ig{
+    margin-left:20% ;
+    width: 10%;
+  }
+  #lk{
+    margin-left:87% ;
+    width: 10%;
+  }
