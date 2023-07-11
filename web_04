@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UPES CSA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+   //header
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #000000; 
+    }
+
+    .header .logo {
+      font-size: 25px;
+      font-family: sans-serif;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #000;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #f5f5f5;
+      padding: 35px 20px;
+    }
+
+   //main
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 0%, rgba(0, 0, 0, 1.0) 50%), url("https://www.canva.com/design/DAFoQ7kDLRg/el_v5K8K9H8XNcItYPumHw/edit?utm_content=DAFoQ7kDLRg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h2 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-family: sans-serif;
+      font-size: 50px;
+      color: #fff;
+      fonr-weight: bold;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+
+    .achievements {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+
+    .about-us {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-us img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-us-text h2 {
+      font-size: 30px;
+      color: #000;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .about-us-text p {
+      font-size: 20px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+   //footer
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #000;
+      padding: 40px 40px;
+    }
+ 
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding:50px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 25px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 40px 20px;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #fff;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo"><img src="https://upescsa.in/img/favicon/favicon.avif"/></a>
+    <nav class="nav-items">
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">BLOG</a>
+      <a href="#">ALLIANCE</a>
+      <a href="#">EVENTS</a>
+      <a href="#">FAQ</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h2>UPES</h2>
+      <p>CLOUD SECURITY ALLIANCE</p>
+    </div>
+    <div class="achievements">
+       <h2>ALLIANCE</h2>
+      <div class="work">
+        <img src="https://upescsa.in/img/Alliance/codewar.avif">
+      </div>
+      <div class="work">
+        <img src="https://upescsa.in/img/Alliance/awsugmumbai.avif">
+      </div>
+      <div class="work">
+        <img src="https://upescsa.in/img/Alliance/nvidia.avif">
+      </div>
+      <div class="work">
+        <img src="https://upescsa.in/img/Alliance/GMC.avif">
+      </div>
+      <div class="work">
+        <img src="https://upescsa.in/img/Alliance/newtonschool.avif">
+      </div>
+    </div>
+    
+    <div class="about-us">
+      <div class="about-us-text">
+        <h2>ABOUT US</h2>
+        <p>With the vision of redefining excellence, Cloud Security Alliance (CSA) embarked upon its glorious journey as the youngest and first-ever domain-centric student chapter in UPES in 2017. CSA student chapter is zealously dedicated to raising awareness of best practices to help ensure a secure cloud computing environment, in association with Cloud Security Alliance, Uttarakhand. In the pursuit of its aim, the student chapter has been reputed as a pinnacle of success, which is evident through the plethora of opportunities provided such as technology-centred workshops, technical events, and fun fests. “A community of learners, innovators, and champions of our own success”, quoting this, UPES-CSA strives to nurture its community of student innovators with immense knowledge</p>
+      </div>
+      <img src="https://upescsa.in/img/about.avif" alt="me">
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">&copy; 2022 Developer</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Alliance</a>
+        <a href="#">Events</a>
+        <a href="#">Faq</a>
+      </div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
