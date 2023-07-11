@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FAQ</title>
+  <style>
+
+    .faq-ques {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .question {
+      font-type:sans-serif;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    .answer {
+      font-type:sans-serif;
+      display: none;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+  <div class="faq-ques">
+    <h2>FREQUENTLY ASKED QUESTIONS</h2>
+    <div class="question">Q:What is the purpose of UPES CSA Chapter?</div>
+    <div class="answer">A: ***</div>
+    
+    <div class="question">Q:How can UPES CSA Chapter benefit me as a computer science student?</div>
+    <div class="answer">A: ***</div>
+    
+    <div class="question">Q:What resources or support does UPES CSA Chapter provide to its members?</div>
+    <div class="answer">A: ***</div>
+     
+     
+    <div class="question">Q:How can I become a member of UPES CSA Chapter?</div>
+    <div class="answer">A: ***</div>
+    
+  </div>
+  
+  <script>
+    //JS CODE
+    var questions = document.getElementsByClassName("question");
+    var i;
+    
+    for (i = 0; i < questions.length; i++) {
+      questions[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var answer = this.nextElementSibling;
+        if (answer.style.display === "block") {
+          answer.style.display = "none";
+        } else {
+          answer.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+</html>
